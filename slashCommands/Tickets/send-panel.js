@@ -7,13 +7,14 @@ module.exports = {
             description: 'Channel to send ticket panel!',
             type: 'CHANNEL',
             channelTypes: ["GUILD_TEXT"],
-            required: true
+            permission: false
+            
         }
     ],
     category: "Tickets",
     description: "Send ticket panel to specific channel!",
     permission: ["ADMINISTRATOR"],
-    ownerOnly: false,
+    everyone: false,
     run: async (client, interaction) => {
         const channel = interaction.options.getChannel("channel");
 
