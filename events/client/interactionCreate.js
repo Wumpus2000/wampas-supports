@@ -28,14 +28,6 @@ module.exports = {
             } else if (option.value) args.push(option.value);
         }
         
-        interaction.member = interaction.guild.member.cache.get
-               interaction.user.id
-
-    if (!interaction.member.permissions.has(cmd.userPermissions || [])) 
-        return interaction.followUp({
-            content: "you do not have persmissions to use this commands",
-     });
-
         try {
             command.run(client, interaction, args)
         } catch (e) {
