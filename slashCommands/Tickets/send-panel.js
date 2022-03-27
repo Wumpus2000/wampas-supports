@@ -12,7 +12,7 @@ module.exports = {
     ],
     category: "Tickets",
     description: "Send ticket panel to specific channel!",
-    userPerms: ["ADMINISTRATOR"],
+    permission: ["ADMINISTRATOR"],
     ownerOnly: false,
     run: async (client, interaction) => {
         const channel = interaction.options.getChannel("channel");
