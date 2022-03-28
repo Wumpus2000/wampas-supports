@@ -49,7 +49,7 @@ module.exports = {
                 .setTitle("Ticket Transcript")
                 .addFields(
                     { name: "Channel", value: `${interaction.channel.name}` },
-                    { name: "Ticket Ownerㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ", value: `<@!${member.id}>` },
+                    { name: "Ticket Ownerㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ", value: `<@!${member.id}>` },
                     { name: "Direct Transcript", value: `[Direct Transcript](${transcript.url})` }
                 )
                 .setColor(client.config.embedColor)
