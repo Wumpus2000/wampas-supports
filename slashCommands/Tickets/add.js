@@ -11,7 +11,7 @@ module.exports = {
     category: "Tickets",
     description: "Add user to ticket!",
     userPerms: ["SEND_MESSAGES"],
-    ownerOnly: false,
+    ownerOnly: true,
     run: async (client, interaction, args) => {
         let user = interaction.options.getUser("user");
 

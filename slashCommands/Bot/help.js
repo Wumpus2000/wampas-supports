@@ -69,9 +69,9 @@ module.exports = {
             const helpEmbed = new client.discord.MessageEmbed()
             .setTitle(`${client.user.username} SlashHelp`)
             .setDescription(` Hello **<@${interaction.member.id}>**, I am <@${client.user.id}>.  \nYou can use \`/help <slash_command>\` to see more info about the SlashCommands!\n**Total Commands:** ${client.commands.size}\n**Total SlashCommands:** ${client.slash.size}`)
-            .addField("🤖 - Bot SlashCommands", botCommandsList.map((data) => `${data}`).join(", "), true)
-            .addField("🛠 - Utility SlashCommands", utilityCommandsList.map((data) => `${data}`).join(", "), true)
-            .addField("📩 - Tickets SlashCommands", ticketsCommandsList.map((data) => `${data}`).join(", "), true)
+            .addField("<:CircleBot:958111320400601139> - Bot SlashCommands", botCommandsList.map((data) => `${data}`).join(", "), true)
+            .addField("<:CircleDev:958111100346441768> - Utility SlashCommands", utilityCommandsList.map((data) => `${data}`).join(", "), true)
+            .addField("<:CirclePen:958111562202251305> - Tickets SlashCommands", ticketsCommandsList.map((data) => `${data}`).join(", "), true)
             .setColor(client.config.embedColor)
             .setFooter({ text: `${client.config.embedfooterText}`, iconURL: `${client.user.displayAvatarURL()}` });
 

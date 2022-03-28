@@ -14,7 +14,7 @@ module.exports = {
         
         if (command.ownerOnly) {
             if (message.author.id !== client.config.ownerID) {
-                return message.reply({ content: "This command only for Bot Owner!", allowedMentions: { repliedUser: false } });
+                return message.reply({ content: "This command is only for Wampas Staff!", allowedMentions: { repliedUser: false } });
             }
         }
         

@@ -22,7 +22,7 @@ module.exports = {
             new client.discord.MessageButton()
             .setStyle("DANGER")
             .setLabel('Support')
-            .setEmoji("939808445215952906")
+            .setEmoji("952041245910396968")
             .setCustomId("create-ticket")
         );
 
