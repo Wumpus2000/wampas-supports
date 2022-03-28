@@ -52,8 +52,8 @@ module.exports = {
             const helpEmbed = new client.discord.MessageEmbed()
             .setTitle(`${client.user.username} Help`)
             .setDescription(` Hello **<@${message.author.id}>**, I am <@${client.user.id}>.  \nYou can use \`!help <command>\` to see more info about the commands!\n**Total Commands:** ${client.commands.size}\n**Total SlashCommands:** ${client.slash.size}`)
-            .addField("🤖 - Bot Commands", botCommandsList.map((data) => `${data}`).join(", "), true)
-            .addField("🛠 - Utility Commands", utilityCommandsList.map((data) => `${data}`).join(", "), true)
+            .addField("<:CircleBot:958111320400601139> - Bot Commands", botCommandsList.map((data) => `${data}`).join(", "), true)
+            .addField("<:CircleDev:958111100346441768> - Utility Commands", utilityCommandsList.map((data) => `${data}`).join(", "), true)
             .setColor(client.config.embedColor)
             .setFooter({ text: `${client.config.embedfooterText}`, iconURL: `${client.user.displayAvatarURL()}` });
 
