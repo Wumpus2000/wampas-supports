@@ -29,7 +29,7 @@ module.exports = {
         const embed = new client.discord.MessageEmbed()
         .setTitle("Open a Support Ticket!")
         .setDescription("<:channel:942191114935492619> If you are experiencing a bug and need assistance troubleshooting the issue, our team is dedicated to providing a solution. Simply click the button below.\n\n<:channel:942191114935492619> If you have witnessed someone covertly breaking our Server Rules, our team is dedicated to providing a safe environment. Simply click the button below.\n\n<:CircleRed:957390667573764206> Please understand that our staff is comprised of volunteers and that it could, in extreme cases, take up to 24-hours to respond. ")
-        .setColor('#5865F2')
+        .setColor('#ED4245')
         .setThumbnail('https://cdn.discordapp.com/attachments/939720531492605963/957398338976755802/wumpus_copy_2.pnga.png')
         .setAuthor({ name: 'Wampas Support', iconURL: 'https://cdn.discordapp.com/attachments/939720531492605963/957398338976755802/wumpus_copy_2.pnga.png', url: 'https://discord.js.org' })
         .setImage('https://cdn.discordapp.com/attachments/939720531492605963/957397966405140561/wampashelps.png')

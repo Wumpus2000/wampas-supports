@@ -3,7 +3,7 @@ module.exports = {
     botPrefix: "!",
     guildID: "939720556700368907",
     ownerID: "918652437752062023",
-    embedColor: "#5865f2",
+    embedColor: "#ED4245",
     embedfooterText: "Wampas Support",
 
     ticketsSupportRoles: [
