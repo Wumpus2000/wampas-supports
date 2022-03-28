@@ -16,7 +16,7 @@ module.exports = {
             .addComponents(
                 new client.discord.MessageButton()
                 .setStyle("DANGER")
-                .setEmoji("958115542236024885")
+                .setEmoji("958119793741930516")
                 .setDisabled(true)
                 .setCustomId("ticket-close")
             );
@@ -27,7 +27,7 @@ module.exports = {
             .addComponents(
                 new client.discord.MessageButton()
                 .setStyle("DANGER")
-                .setEmoji("958118465934356573")
+                .setEmoji("958119793741930516")
                 .setDisabled(true)
                 .setCustomId("ticket-delete")
             );
@@ -36,14 +36,14 @@ module.exports = {
             .addComponents(
                 new client.discord.MessageButton()
                 .setStyle("DANGER")
-                .setEmoji("958118465934356573")
+                .setEmoji("958119793741930516")
                 .setDisabled(false)
                 .setCustomId("ticket-delete")
             );
             
             const embed = new client.discord.MessageEmbed()
             .setTitle("Close Ticket!")
-            .setDescription(`Ticket closed by <@!${interaction.user.id}>!\n\n**Press the <:CircleLock:958112029795815496> button to delete the ticket!**`)
+            .setDescription(`Ticket closed by <@!${interaction.user.id}>!\n\n**Press the <:CircleTrush:958119793741930516>  button to delete the ticket!**`)
             .setColor(client.config.embedColor)
             .setFooter({ text: `${client.config.embedfooterText}`, iconURL: `${client.user.displayAvatarURL()}` });
             

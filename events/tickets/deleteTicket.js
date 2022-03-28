@@ -41,7 +41,7 @@ module.exports = {
                 .addComponents(
                     new client.discord.MessageButton()
                     .setStyle("LINK")
-                    .setEmoji("957402112122302524")
+                    .setEmoji("958121006160052284")
                     .setURL(`${transcript.url}`)
                 );
         
