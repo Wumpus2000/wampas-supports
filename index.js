@@ -27,6 +27,7 @@ require('dotenv').config()
 
 module.exports = client;
 
+
 // Global Variables
 client.discord = Discord;
 client.commands = new Collection();
