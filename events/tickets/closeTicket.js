@@ -16,7 +16,7 @@ module.exports = {
             .addComponents(
                 new client.discord.MessageButton()
                 .setStyle("DANGER")
-                .setEmoji("958112029795815496")
+                .setEmoji("958115542236024885")
                 .setDisabled(true)
                 .setCustomId("ticket-close")
             );
@@ -27,7 +27,7 @@ module.exports = {
             .addComponents(
                 new client.discord.MessageButton()
                 .setStyle("DANGER")
-                .setEmoji("956034695899021352")
+                .setEmoji("958118465934356573")
                 .setDisabled(true)
                 .setCustomId("ticket-delete")
             );
@@ -36,7 +36,7 @@ module.exports = {
             .addComponents(
                 new client.discord.MessageButton()
                 .setStyle("DANGER")
-                .setEmoji("956034695899021352")
+                .setEmoji("958118465934356573")
                 .setDisabled(false)
                 .setCustomId("ticket-delete")
             );

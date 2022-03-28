@@ -44,13 +44,13 @@ module.exports = {
             .addComponents(
                 new client.discord.MessageButton()
                 .setStyle("DANGER")
-                .setEmoji("957400387634229278")
+                .setEmoji("958115542236024885")
                 .setCustomId("ticket-close")
             );
 
             const embed = new client.discord.MessageEmbed()
             .setTitle("New Ticket!")
-            .setDescription(`Hello <@!${interaction.user.id}>, a staff will assist you shortly!\n\nPlease Tell Us What You Need Help On\n\n**Press the <:CircleLock:958112029795815496> button to close the ticket!**`)
+            .setDescription(`Hello <@!${interaction.user.id}>, a staff will assist you shortly!\n\nPlease Tell Us What You Need Help On\n\n**Press the <:CircleLocks:958112029795815496> button to close the ticket!**`)
             .setColor(client.config.embedColor)
             .setFooter({ text: `${client.config.embedfooterText}`, iconURL: `${client.user.displayAvatarURL()}` });
 

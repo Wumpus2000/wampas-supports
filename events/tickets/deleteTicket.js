@@ -19,7 +19,7 @@ module.exports = {
             .addComponents(
                 new client.discord.MessageButton()
                 .setStyle("DANGER")
-                .setEmoji("956034695899021352")
+                .setEmoji("958115542236024885")
                 .setDisabled(true)
                 .setCustomId("ticket-delete")
             );
