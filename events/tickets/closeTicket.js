@@ -43,7 +43,7 @@ module.exports = {
             
             const embed = new client.discord.MessageEmbed()
             .setTitle("Close Ticket!")
-            .setDescription(`Ticket closed by <@!${interaction.user.id}>!\n\n**Press the <:CircleTrush:958119793741930516>  button to delete the ticket!**`)
+            .setDescription(`Ticket closed by <@!${interaction.user.id}>!\n\n**Press the <:CircleRedTrush:958120643545690173> button to delete the ticket!**`)
             .setColor(client.config.embedColor)
             .setFooter({ text: `${client.config.embedfooterText}`, iconURL: `${client.user.displayAvatarURL()}` });
             
