@@ -28,11 +28,11 @@ module.exports = {
 
         const embed = new client.discord.MessageEmbed()
         .setTitle("Open a Support Ticket!")
-        .setDescription("<:channel:942191114935492619> If you are experiencing a bug and need assistance troubleshooting the issue, our team is dedicated to providing a solution. Simply click the button below.\n\n<:channel:942191114935492619> If you have witnessed someone covertly breaking our Server Rules, our team is dedicated to providing a safe environment. Simply click the button below.\n\n<:CircleRed:957390667573764206> Please understand that our staff is comprised of volunteers and that it could, in extreme cases, take up to 24-hours to respond. ")
+        .setDescription("<:channel:942191114935492619> If you are experiencing a **bug** and need assistance troubleshooting the issue, our team is dedicated to providing a solution. Simply click the button below.\n\n<:channel:942191114935492619> If you have witnessed someone covertly breaking our **Server Rules**, our team is dedicated to providing a safe environment. Simply click the button below.\n\n<:CircleRed:957390667573764206> Please understand that our staff is comprised of volunteers and that it could, in extreme cases, take up to **24-hours** to respond, sometimes it depends if we're busy or not. ")
         .setColor('#ED4245')
         .setThumbnail('https://cdn.discordapp.com/attachments/939720531492605963/958108053700493353/lofi-wumpus_copy.png')
         .setAuthor({ name: 'Wampas Support', iconURL: 'https://cdn.discordapp.com/attachments/939720531492605963/958108053700493353/lofi-wumpus_copy.png', url: 'https://discord.com/channels/93972055' })
-        .setImage('https://cdn.discordapp.com/attachments/939720531492605963/957397966405140561/wampashelps.png')
+        .setImage('https://cdn.discordapp.com/attachments/939720531492605963/958940264909635614/wampas-etc.png')
         .setFooter({ text: 'Wampas™ • Ticket Tool', iconURL: 'https://cdn.discordapp.com/attachments/939720531492605963/958108053700493353/lofi-wumpus_copy.png' })
 
         interaction.reply({ content: `Ticket panel success send to ${channel}!`, ephemeral: true });
