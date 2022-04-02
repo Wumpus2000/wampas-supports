@@ -31,7 +31,7 @@ module.exports = {
             new client.discord.MessageButton()
             .setLabel("Website")
             .setStyle("LINK")
-            .setURL("discord.com"),
+            .setURL("https://www.youtube.com"),
             new client.discord.MessageButton()
             .setLabel("Support Channel")
             .setStyle("LINK")

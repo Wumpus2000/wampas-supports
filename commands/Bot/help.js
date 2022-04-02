@@ -19,15 +19,15 @@ module.exports = {
             new client.discord.MessageButton()
             .setLabel("Support Channel")
             .setStyle("LINK")
-            .setURL("https://discord.com/channels/939720556700368907/939720556939460660"),
+            .setURL("https://www.youtube.com/"),
             new client.discord.MessageButton()
             .setLabel("Invite Wampas")
             .setStyle("LINK")
-            .setURL("https://discord.com/oauth2/authorize?client_id=940463579247829032&permissions=8&scope=bot%20applications.commands"),
+            .setURL("https://www.youtube.com/"),
             new client.discord.MessageButton()
-            .setLabel("Website")
+            .setLabel("Website Comming Soon!")
             .setStyle("LINK")
-            .setURL("https://Discord.com")
+            .setURL("https://www.youtube.com/")
         );
 
         if (!args[0]) {
